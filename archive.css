@@ -1,0 +1,296 @@
+body {
+	background-color:#E1E1E1;
+	background-image: url(../assets/bkgradient.jpg);
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-position: left top;	
+	padding-bottom:0;
+	}
+
+.content {
+	background-color:#fff;
+	background-attachment: scroll;
+	background-image: url(../assets/header.gif);
+	background-repeat: repeat-x;
+	background-position: left top;
+	}
+
+.nav {
+	padding-bottom:65px;
+	}
+
+
+#top_nav {
+	padding: 0;
+	width:900px;
+	height:30px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+	
+#top_nav ul {
+	list-style:none;
+	width: 900px;
+	height: 30px;
+	margin-left:0;
+	margin-right:auto;
+	padding:0;
+	font:  12px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	text-transform: none;
+	letter-spacing: 0;
+	left:1px;
+	top: 20px;
+	
+
+}
+
+#top_nav li {
+	display:inline;
+	margin:0;
+	padding:0;
+	font:  12px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+}
+
+#top_nav a {
+	float:left;
+	margin:0;
+	text-decoration:none;
+	color: #f2f2f2;
+	padding-top: 0;
+	padding-right: 19px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+#top_nav a span {
+
+   float:left;
+
+   display:block;
+
+   padding:7px 7px 7px 7px;
+
+   color: #f2f2f2;
+
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+
+#top_nav a span {float:none;}
+
+/* End IE5-Mac hack */
+
+#top_nav a:hover span {
+
+	color:#FF9900;
+
+}
+
+#top_nav a:hover {
+
+    color: #FF9900; 
+}
+
+#top_nav a:hover span {
+
+  	 color: #FF9900; 
+
+}
+	
+
+	
+.sitename {
+	width:400px;
+	font:  26px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	color:#f2f2f2;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-left:-25px; 
+	padding-bottom: 3px;
+	letter-spacing: -1px; 
+	text-transform: uppercase;
+	line-height: 25px;
+
+}
+
+.sitename a:link {
+	font-weight: normal; text-decoration: none; color: #f2f2f2;
+	}
+	
+.sitename a:visited {font-weight: normal; text-decoration: none; color: #f2f2f2;}	
+.sitename a:visited:hover {font-weight: normal; text-decoration: none; color: #f2f2f2;}
+.sitename a:hover {text-decoration: none; color: #f2f2f2;}
+.sitename a:active {text-decoration: none; color: #f2f2f2;}	
+
+ul#nav {
+	width:450px;
+	}
+
+ul#nav li a, ul#nav li.last a {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+ul#nav a {
+	font-size:13px;
+	}
+	
+
+#addthis {
+	clear:left;
+	float:left;
+	padding-left:0;
+	padding-top:22px;
+	}
+
+
+#searchbox {
+
+float:right;
+vertical-align: bottom;
+font:  12px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+font-size:12px;
+width: 400px;
+height:26px;
+margin-top:20px;
+margin-right:30px;
+padding: 1px 1px 2px px;
+}
+
+#searchbox a {
+	color:#f2f2f2;
+	text-decoration:none;
+	}
+
+.gallery_search_box {
+	font:  12px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	color:#f2f2f2;
+	}
+.gallery_search_box a {
+	color:#f2f2f2;
+	}
+	
+	
+	
+
+	
+	
+#footer {
+	clear:both;
+	width:950px; 
+	padding:30px 0 0 0;
+	background-image:url(http://www.themagicofcornwall.com/assets/footer_topline.png);
+	background-attachment: scroll;
+	background-repeat: repeat-x;
+	background-position: left top;
+	margin-left:-25px;
+	margin-bottom:-60px;
+	}
+#footer h3 {
+	font:13px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	text-decoration:none;
+	font-style:normal;
+	color: #f2f2f2;
+	}
+
+#footer p {
+	font:11px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	color:#333;
+	font-weight: normal;
+	text-align:left;
+	font-style: normal;
+	text-decoration:none;
+	}
+
+#footer a {
+	font-weight: normal;
+	font:11px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	text-decoration: none;
+	color: #f2f2f2;
+	text-align:left;
+	border:none;
+	outline:none;
+	}
+
+#footer a:visited {font-size:11px;font-weight: normal; text-decoration: none; color: #f2f2f2;}	
+#footer a:visited:hover {font-size:11px;font-weight: normal; text-decoration: none; color: #FF9900;}
+#footer a:hover {font-size:11px;text-decoration: none; color: #FF9900;}
+#footer a:active {font-size:11px;text-decoration: none; color: #f2f2f2;}
+
+
+
+#footer_navbar {
+	width: 950px;
+	height:325px;
+	margin:0;
+	
+	}
+	
+	
+#footer .col6 {float:left; height: 250px; width: 130px; margin-left: 25px; border: 0;}
+.col6 ul {list-style-type: none;margin-left: 0;left: 0;padding-left: 0px;padding-top:15px;border-top:1px dotted #f2f2f2;}
+.col6 ul li {margin-bottom: 2px; font-size: 11px; line-height: 16px;}
+
+
+
+#credits {
+	clear:left;
+	float:left;
+	width:950px;
+	margin-top:0;
+	padding-bottom:20px;	
+	}
+	
+#credits p {
+	font:9px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	text-align:center;
+	color: #f2f2f2;
+		}
+
+#credits a {
+	font-weight: normal;
+	font:9px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	text-decoration: none;
+	color: #f2f2f2;
+	text-align:left;
+	border:none;
+	outline:none;
+	}
+
+#credits a:visited {font-size:9px;font-weight: normal; text-decoration: none; color: #f2f2f2;}	
+#credits a:visited:hover {font-size:9px;font-weight: normal; text-decoration: underline; color: #FF9900;}
+#credits a:hover {font-size:9px;text-decoration: underline; color: #FF9900;}
+#credits a:active {font-size:9px;text-decoration: none; color: #f2f2f2;}
+
+
+
+#ads {
+	padding-top:30px;
+	}
+#subnav {
+		margin-top:10px;
+		}
+	
+	
+.italic {
+	font-style: italic;
+	}
+	
+div#qTip {
+	padding: 7px;
+	border: 1px dotted #999999;
+	display: none;
+	color: #666666;
+	font:10px century gothic, Tahoma, 'Trebuchet MS', Sans-serif;
+	text-align: left;
+	position: absolute;
+	z-index: 1000;
+	background-color: #F7F7F7;
+}
+
+
+.zg_div {margin:0px 5px 5px 0px; width:117px;}
+.zg_div_inner {border: solid 1px #000000; background-color:#ffffff;  color:#666666; text-align:center; font-family:arial, helvetica; font-size:11px;}
+.zg_div a, .zg_div a:hover, .zg_div a:visited {color:#3993ff; background:inherit !important; text-decoration:none !important;}
